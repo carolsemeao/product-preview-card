@@ -138,7 +138,6 @@ p {
         display: block;
         width: 100%;
         height: auto;
-        background-size: cover;
     }
 
     .product__title{
@@ -148,12 +147,11 @@ p {
 
     .product__content{
         padding: 32px;
-        gap: 24px;
     }
 
     .product__description{
         line-height: 1.6;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .new-price{

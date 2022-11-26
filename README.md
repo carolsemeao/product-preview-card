@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/responsive-product-preview-card-component-with-html-css-lhOcSHQbsK)
+- Live Site URL: [Website](https://profound-kashata-71f155.netlify.app/)
 
 ## My process
 
