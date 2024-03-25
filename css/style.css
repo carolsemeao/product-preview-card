@@ -74,16 +74,17 @@ textarea:not([rows]) {
 
 @font-face {
   font-family: "Fraunces";
-  src: url("/fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf");
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Bold.ttf");
+  src: url("/fonts/Fraunces-VariableFont.ttf") format("truetype");
   font-weight: 700;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Medium.ttf");
+  src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
   font-weight: 500;
 }
 body {
