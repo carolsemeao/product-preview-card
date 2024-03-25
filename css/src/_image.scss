@@ -1,0 +1,22 @@
+.image {
+    width: 100%;
+
+    &--desktop {
+        visibility: hidden;
+        display: none;
+        
+        @include media-breakpoint-up($tablet) {
+            visibility: visible;
+            display: block;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &--mobile {
+        @include media-breakpoint-up($tablet) {
+            visibility: hidden;
+            display: none;
+        }
+    }   
+}

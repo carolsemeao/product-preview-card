@@ -1,0 +1,9 @@
+.container__column {
+    &:last-child {
+        padding: 2rem;
+
+        @include media-breakpoint-down($tablet) {
+            padding: $spacing-20;
+        }
+    }
+}

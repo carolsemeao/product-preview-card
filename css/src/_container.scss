@@ -1,0 +1,14 @@
+.container {
+    background-color: hsl($clr-light);
+    height: auto;
+    max-width: 100vw;
+    border-radius: .625rem;
+    overflow: hidden;
+
+    @include media-breakpoint-up($tablet) {
+        display: grid;
+        max-width: 640px;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+    }
+}

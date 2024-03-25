@@ -1,0 +1,21 @@
+.button {
+    background: hsl($clr-primary);
+    color: hsl($clr-light);
+    padding: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background .2s ease;
+    text-decoration: none;
+    font-weight: 700;
+
+    img{
+        padding-right: 12px;
+    }
+    
+    &:hover{
+        background: hsl($clr-hover);
+    }
+}

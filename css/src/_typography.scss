@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Fraunces';
+    src: url('../../fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Medium.ttf');
+    font-weight: 500;
+}
+
+body {
+    font: {
+        size: $fs-normal;
+        weight: 500;
+        family: 'Montserrat';
+    }
+    color: hsl($clr-gray);
+    line-height: 1.64;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl($clr-secondary);
+
+    @include media-breakpoint-down($tablet) {
+        padding: 1.75rem 1rem;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    margin-bottom: $spacing-30;
+}
+
+span {
+    font-size: $fs-small;
+    display: block;
+
+    &.subtitle {
+        text-transform: uppercase;
+        margin-bottom: $spacing-10;
+        letter-spacing: 5px;
+    }
+
+    &.text-highlighted {
+        color: hsl($clr-primary);
+    }
+
+    &.text-striked {
+        text-decoration: line-through;
+    }
+}
+
+h1 {
+    margin-bottom: $spacing-20;
+    color: hsl($clr-base);
+}
+
+h1,
+span.text-highlighted {
+    font: {
+        family: $ff-accent;
+        size: $fs-large;
+        weight: 700;
+    };
+}
