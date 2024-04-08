@@ -25,8 +25,10 @@
     <main>
       <div class="container">
         <div class="container__column">
-          <img class="image image--desktop" src="images/image-product-desktop.jpg" alt="A bottle of the Gabrielle Essence Eau De Parfum from Chanel" />
-          <img class="image image--mobile" src="images/image-product-mobile.jpg" alt="A bottle of the Gabrielle Essence Eau De Parfum from Chanel" />
+          <picture class="image">
+            <source srcset="images/image-product-desktop.jpg" media="(min-width: 720px)" />
+            <img src="images/image-product-mobile.jpg" alt="A bottle of the Gabrielle Essence Eau De Parfum from Chanel" />
+          </picture>
         </div>
         <div class="container__column">
           <span class="subtitle">Perfume</span>
